@@ -16,8 +16,6 @@ A new Flutter project.
 
 [flutter_localizations](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
 
-internationalization
-
 [intl_translation](https://pub.dev/packages/intl_translation)
 
 ```shell
@@ -41,11 +39,15 @@ flutter pub run intl_translation:generate_from_arb --output-dir=lib/i10n --no-us
 
 数据本地保存
 
+[shared_preferences](https://pub.dev/packages/shared_preferences)
+
 toast 弹窗 actionsheet
 
 分享
 
 应用升级
+
+程序重新启动
 
 统计分析
 

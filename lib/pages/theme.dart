@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_study/i10n/localization_intl.dart';
+import 'package:flutter_study/states/index.dart';
 
 class ThemePage extends StatelessWidget {
   List<MaterialColor> _themes;
@@ -31,7 +32,8 @@ class ThemePage extends StatelessWidget {
               ),
             ),
             onTap: () {
-              //
+              var globalState = Provider.of<GlobalState>(context);
+              globalState.theme = e;
             },
           );
         }).toList(),

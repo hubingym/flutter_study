@@ -10,11 +10,11 @@ Future<bool> showAlertDialog(BuildContext context, String tip) {
         actions: <Widget>[
           FlatButton(
             child: Text(AppLocalizations.of(context).yes),
-            onPressed: () => Navigator.pop(context, false),
+            onPressed: () => Navigator.pop(context, true),
           ),
           FlatButton(
             child: Text(AppLocalizations.of(context).cancel),
-            onPressed: () => Navigator.pop(context, true),
+            onPressed: () => Navigator.pop(context, false),
           ),
         ],
       );

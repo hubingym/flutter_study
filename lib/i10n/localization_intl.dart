@@ -20,6 +20,7 @@ class AppLocalizations {
   String get home => Intl.message('home page', name: 'home');
   String get language => Intl.message('Language', name: 'language');
   String get theme => Intl.message('Theme', name: 'theme');
+  String get auto => Intl.message('Auto', name: 'auto');
   String get login => Intl.message('Login', name: 'login');
   String get setting => Intl.message('Setting', name: 'setting');
   String get logout => Intl.message('logout', name: 'logout');

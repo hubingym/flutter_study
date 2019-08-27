@@ -1,0 +1,53 @@
+{
+  "@@last_modified": "2019-08-25T16:05:01.469082",
+  "title": "Flutter Demo",
+  "@title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "home": "home page",
+  "@home": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "language": "语言",
+  "@language": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "theme": "主题",
+  "@theme": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "登录",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "setting": "设置",
+  "@setting": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "登出",
+  "@logout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logoutTip": "Are you sure you want to quit your current account?",
+  "@logoutTip": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "确认",
+  "@yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

@@ -32,6 +32,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "setting" : MessageLookupByLibrary.simpleMessage("Setting"),
     "theme" : MessageLookupByLibrary.simpleMessage("Theme"),
     "title" : MessageLookupByLibrary.simpleMessage("Flutter Demo"),
+    "password" : MessageLookupByLibrary.simpleMessage("Password"),
+    "passwordRequired" : MessageLookupByLibrary.simpleMessage("Password required!"),
+    "userName" : MessageLookupByLibrary.simpleMessage("User Name"),
+    "userNameOrPasswordWrong" : MessageLookupByLibrary.simpleMessage("User name or password is not correct!"),
+    "userNameRequired" : MessageLookupByLibrary.simpleMessage("User name required!"),
     "yes" : MessageLookupByLibrary.simpleMessage("yes")
   };
 }

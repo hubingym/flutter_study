@@ -15,7 +15,6 @@ A new Flutter project.
 多国语言
 
 [flutter_localizations](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
-
 [intl_translation](https://pub.dev/packages/intl_translation)
 
 ```shell
@@ -26,7 +25,6 @@ flutter pub run intl_translation:generate_from_arb --output-dir=lib/i10n --no-us
 路由
 
 [Navigator](https://flutter.dev/docs/development/ui/navigation)
-
 [fluro](https://pub.dev/packages/fluro)
 
 全局状态管理
@@ -36,6 +34,9 @@ flutter pub run intl_translation:generate_from_arb --output-dir=lib/i10n --no-us
 网络请求
 
 [json](https://flutter.dev/docs/development/data-and-backend/json)
+[HttpClient]()
+[dio](https://pub.dev/packages/dio)
+
 
 数据本地保存
 

@@ -38,6 +38,9 @@ class GlobalState extends ChangeNotifier {
     notifyListeners();
   }
 
+  // 当前用户
+  String userName = '';
+
   // 获取当前主题
   ColorSwatch _theme;
   get theme => _theme;

@@ -27,6 +27,12 @@ class AppLocalizations {
   String get logoutTip => Intl.message('Are you sure you want to quit your current account?', name: 'logoutTip');
   String get yes => Intl.message('yes', name: 'yes');
   String get cancel => Intl.message('cancel', name: 'cancel');
+
+  String get userName => Intl.message('User Name', name: 'userName');
+  String get userNameRequired => Intl.message("User name required!" , name: 'userNameRequired');
+  String get password => Intl.message('Password', name: 'password');
+  String get passwordRequired => Intl.message('Password required!', name: 'passwordRequired');
+  String get userNameOrPasswordWrong=>Intl.message('User name or password is not correct!', name: 'userNameOrPasswordWrong');
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

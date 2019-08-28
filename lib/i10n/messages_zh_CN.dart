@@ -32,6 +32,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "setting" : MessageLookupByLibrary.simpleMessage("设置"),
     "theme" : MessageLookupByLibrary.simpleMessage("主题"),
     "title" : MessageLookupByLibrary.simpleMessage("Flutter Demo"),
+    "password" : MessageLookupByLibrary.simpleMessage("密码"),
+    "passwordRequired" : MessageLookupByLibrary.simpleMessage("密码不能为空"),
+    "userName" : MessageLookupByLibrary.simpleMessage("用户名"),
+    "userNameOrPasswordWrong" : MessageLookupByLibrary.simpleMessage("用户名或密码不正确"),
+    "userNameRequired" : MessageLookupByLibrary.simpleMessage("用户名不能为空"),
     "yes" : MessageLookupByLibrary.simpleMessage("确认")
   };
 }

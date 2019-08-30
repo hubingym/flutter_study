@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_cupertino_localizations/flutter_cupertino_localizations.dart';
 import 'i10n/localization_intl.dart';
 import 'pages/index.dart';
 import 'states/index.dart';
-import 'utils/index.dart';
+import 'common/index.dart';
 
 void main() async {
   await Utils.initSystem();

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_study/i10n/localization_intl.dart';
 import 'package:flutter_study/states/index.dart';
 import 'package:flutter_study/widgets/index.dart';
+import 'package:flutter_study/service/index.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -90,7 +91,10 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 
-  _onLogin() {
+  _onLogin() async {
     showLoading(context);
+    var data = await apiService.getUser('hubingym');
+    hideLoading(context);
+    print(data);
   }
 }

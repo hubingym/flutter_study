@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter_study/utils/index.dart';
+import 'package:flutter_study/common/index.dart';
 
 class GlobalState extends ChangeNotifier {
   // 需要保存的数据转成json

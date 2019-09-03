@@ -48,6 +48,7 @@ class MyApp extends StatelessWidget {
               'login': (context) => LoginPage(),
               'themes': (context) => ThemePage(),
               'language': (context) => LanguagePage(),
+              'share': (context) => SharePage(),
             },
           );
         },

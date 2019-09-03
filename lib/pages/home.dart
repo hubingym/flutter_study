@@ -1,5 +1,6 @@
 // import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:flutter_study/pages/webview.dart';
 import 'package:flutter_study/widgets/index.dart';
 import 'package:flutter_study/i10n/localization_intl.dart';
 
@@ -36,19 +37,13 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _buildBody() {
-    return Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text(
-            'You have pushed the button this many times:',
-          ),
-          Text(
-            '$_counter',
-            style: Theme.of(context).textTheme.display1,
-          ),
-        ],
-      ),
+    return ListView.builder(
+      itemCount: 10,
+      itemBuilder: (context, index) {
+        return ListTile(
+          title: Text('xx $index'),
+        );
+      },
     );
   }
 }
@@ -81,10 +76,17 @@ class MyDrawer extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: ClipOval(
-                child: Image.asset("assets/imgs/avatar-default.png", width: 80,),
+                child: Image.asset(
+                  "assets/imgs/avatar-default.png",
+                  width: 80,
+                ),
               ),
             ),
-            Text('请登录', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white,)),
+            Text('请登录',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                )),
           ],
         ),
       ),
@@ -106,6 +108,25 @@ class MyDrawer extends StatelessWidget {
           leading: const Icon(Icons.language),
           title: Text(AppLocalizations.of(context).language),
           onTap: () => Navigator.pushNamed(context, "language"),
+        ),
+        ListTile(
+          leading: const Icon(Icons.language),
+          title: Text('webview'),
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) {
+                  return WebViewPage('https://www.baidu.com');
+                },
+              ),
+            );
+          },
+        ),
+        ListTile(
+          leading: const Icon(Icons.language),
+          title: Text('分享'),
+          onTap: () => Navigator.pushNamed(context, "share"),
         ),
         ListTile(
           leading: const Icon(Icons.power_settings_new),

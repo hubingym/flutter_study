@@ -52,6 +52,7 @@ A new Flutter project.
 - [x] 数据本地保存
 
   - [x] [shared_preferences](https://pub.dev/packages/shared_preferences)
+  - [ ] [sqflite](https://pub.dev/packages/sqflite)
 
 - [ ] 工具
   - [x] toast 
